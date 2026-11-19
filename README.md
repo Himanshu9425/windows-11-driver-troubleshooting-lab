@@ -48,7 +48,19 @@ Hardware ID investigated:
 - Technical documentation and escalation readiness
 
 ## Evidence
-Troubleshooting screenshots will be added to the `screenshots/` directory.
+
+### 1. Unknown Devices in Device Manager
+![Unknown devices](screenshots/01-device-manager.png)
+
+### 2. Hardware ID Investigation
+![Hardware ID](screenshots/02-hardware-id.png)
+
+### 3. Error Code 28
+![Error Code 28](screenshots/03-error-code-28.png)
+
+### 4. Driver Search Result
+![Driver search result](screenshots/04-driver-search-result.png)
+  
 
 ## Lessons Learned
 Error Code 28 indicates a missing driver, but not necessarily damaged hardware. Drivers must match both the device and the operating system architecture. When a compatible driver cannot be found, the technician should document the investigation and continue compatibility research or escalate the issue.
